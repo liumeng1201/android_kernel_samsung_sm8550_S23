@@ -31,7 +31,7 @@ TARGET_DEFCONFIG=${1:-kalama_gki_defconfig}
 
 cd "$(dirname "$0")"
 
-LOCALVERSION=-android13-Kokuban-Firefly-CYA1
+LOCALVERSION=-android13-Kokuban-Firefly-CYA1-LKM
 
 ARGS="
 CC=clang
@@ -64,7 +64,7 @@ if [ ! -d AnyKernel3 ]; then
   git clone --depth=1 https://github.com/YuzakiKokuban/AnyKernel3.git -b kalama
 fi
 cp arch/arm64/boot/Image AnyKernel3/zImage
-name=S23_${TARGET_DEFCONFIG%%_defconfig}_kernel_`cat include/config/kernel.release`_`date '+%Y_%m_%d'`
+name=S23_kernel_`cat include/config/kernel.release`_`date '+%Y_%m_%d'`
 cd AnyKernel3
 zip -r ${name}.zip * -x *.zip
 cd ..
