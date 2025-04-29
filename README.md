@@ -42,8 +42,6 @@
 3. 将修补后的 `init_boot` 刷回设备。
 4. 重启并享受！
 
-*注意：可能也兼容 Z Fold6 / Z Flip6（尚未测试）。*
-
 ---
 
 ## 📥 下载链接
@@ -139,8 +137,6 @@ Supports One UI 7.0 Stable and KernelSU integration.
 2. Backup your `init_boot` partition and patch it with KernelSU.
 3. Flash the patched `init_boot` back to your device.
 4. Reboot and enjoy!
-
-*Note: May also be compatible with Z Fold6 / Z Flip6 (not yet tested).*
 
 ---
 
