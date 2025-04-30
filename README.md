@@ -11,7 +11,7 @@
 - **One UI 支持：** 完全兼容 One UI 7.0 稳定版
 - **KernelSU 兼容性：** 支持 KernelSU LKM 模式及更多
 - **版本格式：**  
-  `5.15.148-android13-Kokuban-Firefly-XXXX-XXX-gXXXXXXXXXX`
+  `5.15.153-android13-Kokuban-Firefly-XXXX-XXX-gXXXXXXXXXX`
 
 ---
 
@@ -109,7 +109,7 @@ Supports One UI 7.0 Stable and KernelSU integration.
 - **One UI Support:** Fully compatible with One UI 7.0 Stable
 - **KernelSU Compatibility:** Supports KernelSU LKM mode and more
 - **Version Format:**  
-  `5.15.148-android13-Kokuban-Firefly-XXXX-XXX-gXXXXXXXXXX`
+  `5.15.153-android13-Kokuban-Firefly-XXXX-XXX-gXXXXXXXXXX`
 
 ---
 
