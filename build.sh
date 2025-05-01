@@ -42,6 +42,7 @@ make -j$(nproc) -C $(pwd) O=$(pwd)/out ${ARGS} $TARGET_DEFCONFIG
   -d PROCA_CERTIFICATES_XATTR \
   -d PROCA_CERT_ENG \
   -d PROCA_CERT_USER \
+  -d GAF \
   -d GAF_V6 \
   -d FIVE \
   -d FIVE_CERT_USER \
