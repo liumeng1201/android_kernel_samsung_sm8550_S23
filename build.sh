@@ -16,7 +16,7 @@ TARGET_DEFCONFIG=${1:-kalama_gki_defconfig}
 
 cd "$(dirname "$0")"
 
-LOCALVERSION=-android13-Kokuban-Firefly-DYD9-MKSU
+LOCALVERSION=-android13-Kokuban-Firefly-DYDA-MKSU
 
 ARGS="
 CC=clang
