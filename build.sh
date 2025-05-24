@@ -35,7 +35,18 @@ make -j$(nproc) -C $(pwd) O=$(pwd)/out ${ARGS} $TARGET_DEFCONFIG
   -d SECURITY_DEFEX \
   -d INTEGRITY \
   -d FIVE \
-  -d TRIM_UNUSED_KSYMS
+  -d TRIM_UNUSED_KSYMS \
+  -d PROCA \
+  -d PROCA_GKI_10 \
+  -d PROCA_S_OS \
+  -d PROCA_CERTIFICATES_XATTR \
+  -d PROCA_CERT_ENG \
+  -d PROCA_CERT_USER \
+  -d GAF_V6 \
+  -d GAF \
+  -d FIVE \
+  -d FIVE_CERT_USER \
+  -d FIVE_DEFAULT_HASH
 
 if [ "$LTO" = "thin" ]; then
   ./scripts/config --file out/.config -e LTO_CLANG_THIN -d LTO_CLANG_FULL
