@@ -68,7 +68,6 @@ rm -f oImage
 rm -f Image
 rm -f patch_linux
 name=S23_kernel_`cat include/config/kernel.release`_`date '+%Y_%m_%d'`
-cd AnyKernel3
 zip -r ${name}.zip * -x *.zip
 cd ..
 cp AnyKernel3/zImage AnyKernel3/tools/kernel
