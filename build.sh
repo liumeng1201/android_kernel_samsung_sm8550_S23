@@ -12,7 +12,7 @@ set -e
 
 LTO=full
 
-TARGET_DEFCONFIG=${1:-kalama_gki_defconfig}
+TARGET_DEFCONFIG=${1:-gki_defconfig}
 
 cd "$(dirname "$0")"
 
