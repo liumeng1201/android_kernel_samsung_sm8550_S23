@@ -10,7 +10,7 @@ echo $PATH
 
 set -e
 
-LTO=thin
+LTO=full
 
 TARGET_DEFCONFIG=${1:-kalama_gki_defconfig}
 
