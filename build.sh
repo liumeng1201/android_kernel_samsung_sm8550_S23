@@ -1,10 +1,12 @@
 #!/bin/bash
-TOOLCHAIN=$(realpath "/home/kokuban/PlentyofToolchain/toolchainS23/prebuilts")
+# download toolchain from https://opensource.samsung.com/uploadSearch?searchValue=toolchain 
+TOOLCHAIN=$(realpath "/home/kokuban/PlentyofToolchain/toolchainS24/prebuilts")
 
 export PATH=$TOOLCHAIN/build-tools/linux-x86/bin:$PATH
 export PATH=$TOOLCHAIN/build-tools/path/linux-x86:$PATH
-export PATH=$TOOLCHAIN/clang/host/linux-x86/clang-r450784e/bin:$PATH
+export PATH=$TOOLCHAIN/clang/host/linux-x86/clang-r487747c/bin:$PATH
 export PATH=$TOOLCHAIN/clang-tools/linux-x86/bin:$PATH
+export PATH=$TOOLCHAIN/kernel-build-tools/linux-x86/bin:$PATH
 
 echo $PATH
 
