@@ -133,7 +133,7 @@ chmod +x ./patch_linux
 # patch_linux 脚本会生成 oImage, 我们将其重命名为 AnyKernel3 所需的 zImage
 mv oImage zImage
 # 清理中间文件
-rm -f patch_linux
+rm -f patch_linux oImage Image
 echo "--- patch_linux 执行完毕, 已生成 zImage ---"
 
 # 检查 lz4 命令是否存在
