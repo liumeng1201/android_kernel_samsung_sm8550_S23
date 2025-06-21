@@ -122,19 +122,19 @@ if [ ! -d AnyKernel3 ]; then
 fi
 
 # 复制原始内核镜像，准备 patch
-cp arch/arm64/boot/Image AnyKernel3/Image
+cp arch/arm64/boot/Image AnyKernel3/zImage
 
 cd AnyKernel3
 
 # 运行 patch_linux 脚本
-echo "--- 正在运行 patch_linux ---"
-chmod +x ./patch_linux
-./patch_linux
+# echo "--- 正在运行 patch_linux ---"
+# chmod +x ./patch_linux
+# ./patch_linux
 # patch_linux 脚本会生成 oImage, 我们将其重命名为 AnyKernel3 所需的 zImage
-mv oImage zImage
+# mv oImage zImage
 # 清理中间文件
-rm -f Image oImage patch_linux
-echo "--- patch_linux 执行完毕, 已生成 zImage ---"
+rm -f patch_linux
+# echo "--- patch_linux 执行完毕, 已生成 zImage ---"
 
 # 检查 lz4 命令是否存在
 if ! command -v lz4 &> /dev/null; then
