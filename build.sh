@@ -9,7 +9,7 @@ set -e
 MAIN_DEFCONFIG=kalama_gki_defconfig
 
 # 2. 内核版本基础标识
-LOCALVERSION_BASE=-android13-Kokuban-Firefly-DYF1-LKM
+LOCALVERSION_BASE=-android13-Kokuban-Firefly-DYF1-KSU
 
 # 3. LTO (Link Time Optimization)
 LTO="thin"
